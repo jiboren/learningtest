@@ -50,7 +50,16 @@ int main(){//输出语句，小括号李面表示输出的内容
 *核心语法2-数据类型：作用：1.变量中能存储什么类型的数据2.决定储存空间的大小                 
                    单位：一个0或1的二进制位称为一个比特位（bit）（计算机中最小的存储单元），8个比特位组成一个字节byte，1byte=8bit 举例：一个int 32位（bit） 4个字节（byte）
                    类型：1.整数（short int（一般都用int） long (longlong）此为c99标准)  c语言中整数一般为int类型
-                   
+                               short简短型 2B，long 类型 长整型 4个字节（windows），long long(c99) 超长整型 windows 8个字节（19位数），利用sizeof测量每一种数据类型占用对少字节,sizeof(变量名/数据类型)
+                               注意事项：long x =100L 输出变量的值之前%d变为%ld
+                                        long long x =100LL 输出变量之前%d变为lld
+
+                                        printf("%zu\n",sizeof());
+                                        除int外
+                                        其他的数据类型自动省略int 如short=short int
+                                    有符号整数，无符号整数的定义情况：signed有符号整数 正数 负数 //unsigned无符号整数 正数   举例：unsigned int unsigned short  注意对应的输出也要改变printf（"%u",变量名），对应的变量类型的范围也会被扩大，扩大至原有范围上下限绝对值之和
+
+
                                 
                   
                  

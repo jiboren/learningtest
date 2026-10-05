@@ -2,7 +2,7 @@
 int main(){
 //1定义short int long longlong 的四种数据类型的变量
 //格式：数据类型 变量名
-//short 短整型 2B
+//short简短型 2B
 short a=10;
 printf("%d\n",a);
 //int 整数32位 4字节
