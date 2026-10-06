@@ -5,7 +5,7 @@ int num2 ;
      scanf("%d",&num1);
      printf("请赋值:num2=");
      scanf("%d",&num2);
-     printf("求和结果为=%d","num1+num2");
+     printf("求和结果为=%d",num1+num2);
 
 
 

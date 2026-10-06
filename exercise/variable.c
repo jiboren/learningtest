@@ -28,5 +28,3 @@ int main(){
     printf("您的血量为：%d\n",blood-injury+recovery);
     return 0;
 }
-#include<stdio.h>
-int main(){
