@@ -1,16 +1,15 @@
 #include <stdio.h>
-int main () {int num1 ;
-int num2 ;
-     printf("请赋值num1=");
-     scanf("%d",&num1);
-     printf("请赋值:num2=");
-     scanf("%d",&num2);
-     printf("求和结果为=%d",num1+num2);
+int main(){
+       int a=89;
+       int b=64;
+   printf("%d\n",a>=b);
+   printf("%d\n",a<=b);
+   printf("%d\n",a==b);
+   printf("%d\n",a>b);
+   printf("%d\n",a<b);
+   printf("%d\n",a!=b);
+
+    return 0 ;
 
 
-
-
-
-
-   
-    return 0 ;}
+}
